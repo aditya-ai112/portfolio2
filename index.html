@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aditya Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LEFT PANEL -->
+  <div class="left">
+    <h1>Aditya</h1>
+    <p>Web Developer</p>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- RIGHT CONTENT -->
+  <div class="right">
+
+    <section id="home">
+      <h2>About Me</h2>
+      <p>I build simple and functional web apps. I enjoy learning new technologies and solving problems.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio to showcase my work.</p>
+      </div>
+
+      <div class="card">
+        <h3>Blog App</h3>
+        <p>CRUD app using React and Node.js.</p>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <input type="text" id="name" placeholder="Name">
+      <textarea id="msg" placeholder="Message"></textarea>
+      <button onclick="sendMsg()">Send</button>
+
+      <div id="output"></div>
+    </section>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
